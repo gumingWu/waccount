@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind utilities;
+
+@layer base {
+  ::selection {
+    @apply bg-[#fcc307]/30 text-[#e8bf38]
+  }
+}

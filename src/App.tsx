@@ -1,5 +1,5 @@
 import { Layout, Header } from "./layout";
-import { Hero } from "./components";
+import { Home } from "./pages";
 import type { PropsWithChildren } from "react";
 
 function Background({children}: PropsWithChildren) {
@@ -15,7 +15,7 @@ function App() {
     <Background>
       <Header />
       <Layout>
-        <Hero />
+        <Home />
       </Layout>
     </Background>
   );
