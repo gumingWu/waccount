@@ -5,4 +5,14 @@
   ::selection {
     @apply bg-[#fcc307]/30 text-[#e8bf38]
   }
+
+  .main-bg {
+    background-color:hsla(181,91%,51%,1);
+    background-image:
+      radial-gradient(at 14% 9%, hsla(38,100%,74%,1) 0px, transparent 50%),
+      radial-gradient(at 88% 73%, hsla(199,100%,56%,1) 0px, transparent 50%),
+      radial-gradient(at 0% 50%, hsla(5,100%,93%,1) 0px, transparent 50%),
+      radial-gradient(at 0% 100%, hsla(32,100%,77%,1) 0px, transparent 50%),
+      radial-gradient(at 80% 100%, hsla(252,100%,70%,1) 0px, transparent 50%);
+  }
 }

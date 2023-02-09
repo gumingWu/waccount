@@ -26,10 +26,10 @@ function Theme() {
 
   return (
     <div
-      className="text-xl"
+      className="text-xl cursor-pointer"
       onClick={() => setTheme((val) => (val === "light" ? "dark" : "light"))}
     >
-      {theme === 'light' ? < IconSunLow className="text-[#fc9207]" /> : <IconMoonStars className="text-blue-400" />}
+      {theme === 'light' ? < IconSunLow className="text-[#fc9207]/70 hover:text-[#fc9207]" /> : <IconMoonStars className="text-blue-400/70 hover:text-blue-400" />}
     </div>
   );
 }
@@ -52,7 +52,7 @@ export function Header() {
         <div
           className={clsx(
             "py-2 border-b border-slate-900/10 lg:px-8 lg:border-0 dark:border-slate-300/10 mx-4 lg:mx-0",
-            "flex items-center"
+            "flex items-center justify-between"
           )}
         >
           <Logo />
